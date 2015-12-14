@@ -1,14 +1,17 @@
 {
   "name": "astros-css-sprite",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "_version": "0.0.3",
   "description": "",
   "main": "astros-css-sprite.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "image-magic":"~0.0.4"
+    "image-magic":">0.0.4"
   },
-  "author": "",
+  "repository": "lemonabc/astros-css-sprite",
+  "email" : "ilemonabc@qq.com",
+  "author": "lemonabc <ilemonabc@qq.com>",
   "license": "ISC"
 }
