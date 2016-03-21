@@ -15,7 +15,6 @@ module.exports = new astro.Middleware({
         next(asset);
         return
     }
-
     let prjCfg = asset.prjCfg;
     if(!spriteJson){
         spriteJson = {};
@@ -52,13 +51,14 @@ let processSprite = (code, imgHash, prjCfg)=>{
             } else {
                 v = '';
             }
+
             let iInfo = imgHash[imgpath];
 
             if (iInfo) {
                 return 'url(' + imgPathPer + iInfo.path + 
-                       ') ' + iInfo.pos;
+                       v +') ' + iInfo.pos;
             }
-            return 'url(' + imgPathPer + imgpath + ')';
+            return 'url(' + imgPathPer + imgpath + v + ')';
         });
     } catch (error) {
         console.error('processSprite', error);

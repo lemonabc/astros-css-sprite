@@ -1,7 +1,6 @@
 {
   "name": "astros-css-sprite",
-  "version": "0.0.3",
-  "_version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "astros-css-sprite.js",
   "scripts": {
