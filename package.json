@@ -1,6 +1,6 @@
 {
     "name": "astros-css-sprite",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": "lemonabc <ilemonabc@qq.com>",
     "description": "",
     "repository": "lemonabc/astros-css-sprite",
@@ -8,9 +8,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "engines" : { "npm" : ">3.0.0" },
     "license": "ISC",
-    "main": "astros-css-sprite.js",
-    "peerDependencies": {
-        "image-magic": "~1.0.1"
-    }
+    "main": "astros-css-sprite.js"
 }
